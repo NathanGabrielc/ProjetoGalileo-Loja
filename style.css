@@ -1,0 +1,120 @@
+/*Família de fonte escolhida no Google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+
+
+@keyframes flicker {
+
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+
+    text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px blue,
+      0 0 80px blue,
+      0 0 90px blue,
+      0 0 100px blue,
+      0 0 150px blue;
+
+  }
+
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
+}
+
+* {
+  font-family: 'Roboto Slab', serif;
+  /*Família de fonte escolhida no Google Fonts  */
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/images/fundo\ 1.jpg);
+  background-size: cover;
+}
+
+h1 {
+  text-transform: uppercase;
+  /* O texto deve ser estilizado em maiúsculas */
+  color: #fff;
+  
+
+  text-align: center;
+}
+
+h1::first-letter {
+  color: blue;
+  /* A primeira letra em cor diferente das demais */
+}
+
+img {
+  width: 40%;
+  object-fit: cover;
+  box-shadow: 0px 20px 20px white;
+  box-shadow: 0px 20px 20px purple;
+}
+
+.logo {
+  max-width: 100vw;
+  max-height: 8vh;
+  text-shadow: 5px 5px blue; /* Sombra aplicada a cada da letra */
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 0, 255);
+  animation: none;
+
+}
+
+p {
+  animation: flicker 1.5s infinite alternate;
+  font-size: 2.2rem;
+ color: white;
+}
+
+main {
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 70%;
+  align-items: center;
+  border-radius: 30px;
+  /* Bordas arredondadas */
+  background-color: rgba(0, 0, 0, 0.574);
+  /* Fundo colorido */
+}
+
+section {
+  max-width: 100vw;
+  height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  /* Centralizada na página */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+
+}
