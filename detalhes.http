@@ -1,0 +1,10 @@
+POST https://62d0e2051cc14f8c088fc83d.mockapi.io/produto
+Content-Type: application/json
+   
+   {
+      "aluno": "Nathan Gabriel",
+      "imagem": "https://images4.alphacoders.com/112/thumb-1920-1128578.jpg",
+      "titulo": "Minecraft",
+      "descricao": "Minecraft é um jogo eletrônico sandbox de sobrevivência criado pelo desenvolvedor sueco Markus Notch Persson e posteriormente desenvolvido e publicado pela Mojang Studios, cuja propriedade intelectual foi obtida pela Microsoft em 2014. Lançado inicialmente em maio de 2009 como um projeto em desenvolvimento, seu lançamento completo ocorreu em novembro de 2011 para Microsoft Windows, macOS e Linux, sendo posteriormente relançado para uma ampla variedade de plataformas." 
+   }
+    
